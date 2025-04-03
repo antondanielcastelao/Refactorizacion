@@ -1,3 +1,13 @@
+# Mi refactorizacion
+ - [X] Añadida más claridad con espacios en operadores lógicos
+ - [X] Usado string builder para concatenar en vez de operadores + que tienen que crear un nuevo objeto
+ - [X] Break despues de los casos en switch
+ - [X] Corregidos espacios entre {} para mayor legibilidad
+ - [X] Renombrado de variables a formato estándar
+ - [X] Usada la sentencia switch moderna con `->` para asignar automaticamente el valor a la variable "puntosStringFinal"
+ - [X] Declarada variable ``tempScore`` más cerca de donde es inicializada.
+
+---
 # Refactorizacion 
 El término refactorizar dentro del campo de la Ingeniería del Software hace referencia a la modificación del código sin cambiar su funcionamiento.
 
