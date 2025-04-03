@@ -18,13 +18,13 @@ public class Main {
         } else if (puntuacionJ1 >=4 || puntuacionJ2 >=4) {
             int minusResult = puntuacionJ1-puntuacionJ2;
 
-            if (minusResult==1) {
+            if (minusResult == 1) {
                 puntosStringFinal = new StringBuilder("Advantage player1");
             }
-            else if (minusResult ==-1) {
+            else if (minusResult ==- 1) {
                 puntosStringFinal = new StringBuilder("Advantage player2");
             }
-            else if (minusResult>=2) {
+            else if (minusResult >= 2) {
                 puntosStringFinal = new StringBuilder("Win for player1");
             }
             else {
@@ -33,7 +33,7 @@ public class Main {
         } else {
             int tempScore;
 
-            for (int i=1; i<3; i++) {
+            for (int i = 1 ; i < 3 ; i++) {
                 if (i==1) {
                     tempScore = puntuacionJ1;
                 } else {
